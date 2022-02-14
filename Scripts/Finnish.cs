@@ -7,6 +7,7 @@ public class Finnish : MonoBehaviour
 {
     private AudioSource finnishsound;
    
+
     private void Start()
     {
         finnishsound = GetComponent<AudioSource>();
@@ -23,6 +24,7 @@ public class Finnish : MonoBehaviour
 
     private void CompleteLevel()
     {
+        PlayerPrefs.SetInt("levelTerbaik", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

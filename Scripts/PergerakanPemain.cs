@@ -12,7 +12,7 @@ public class PergerakanPemain : MonoBehaviour
     //[SerializeField] typeData namaVar == public typeData namaVar
     //sama-sama bisa diatur di inspector
     //bedanya public bisa diakses script lain
-    [SerializeField] float kecepatan = 10f;
+    public static float kecepatan = 10f;
     [SerializeField] float kekuatanLompat = 14f;
     [SerializeField] LayerMask tanahDipijak;
     

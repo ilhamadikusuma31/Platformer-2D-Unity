@@ -5,7 +5,7 @@ using UnityEngine;
 public class PengontrolKamera : MonoBehaviour
 {
     [SerializeField] Transform pemain;
-    [SerializeField] float margin_vertikal = 4f;
+    [SerializeField] float margin_vertikal = 1f;
     [SerializeField] float batas_bawah = -0.4f;
 
     // Update is called once per frame
